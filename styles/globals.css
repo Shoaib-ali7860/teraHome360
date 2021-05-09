@@ -14,3 +14,20 @@ a {
 * {
   box-sizing: border-box;
 }
+@font-face {
+  font-family: 'Canadara';
+  src: url('/public/fonts/Canadara.ttf');
+}
+@font-face {
+  font-family: 'calibri';
+  src: url('/public/fonts/CalibriRegular.ttf');
+}
+html * {
+  font-family: 'calibri', serif;
+}
+.color {
+  color: #009f92;
+}
+.border-global {
+  border-bottom: 3px solid #009f92;
+}
